@@ -1,4 +1,4 @@
-'''
+
 import time
 import schedule
 
@@ -22,6 +22,7 @@ toast.show_toast('Notification', 'Notification body', duration=10, icon_path='ic
 -------------------------------------------------------------------------------
 
 # show windows notification in specific time
+
 import time
 from win10toast import ToastNotifier
 
@@ -52,6 +53,7 @@ while True:
     toast.show_toast("Notification", "Notification body", duration=20, icon_path="icon.ico", threaded=True,)
 ----------------------------------------------------------------------------
 # Show windows notification every 10 secondes
+
 import time
 from win10toast import ToastNotifier
 
